@@ -191,7 +191,8 @@ console.log(null + 1);// null acts as "0" still, so the result would be 0 + 1 = 
 console.log(undefined > 0);//undefined is not a number so therefore you cannot be greater than 0.
 console.log(undefined + 1);//not a number.
 
-//logical opertators -compares values, any types of vales can be compared using these operators 
+/* logical opertators -compares values, any types of vales can be compared using these operators.
+the three logical operators are. Or (||), AND (&&) and NOT (!) */
 
 console.log(true || true);
 console.log(true || false);
