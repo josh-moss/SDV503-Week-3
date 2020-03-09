@@ -41,7 +41,7 @@ console.log(w);
 
 console.log("post-Decrement");
  
-for(let i=0; i<=100; i++)
+for(let i=0; i<=30; i++)
 {
 console.log(i);
 }
@@ -67,5 +67,45 @@ console.log(r);
 
 const firstWord = "Hello"
 const secondWord = "World"
+ 
+//spaces in text using "`" key.
 
-console.log(firstWord, + secondWord);
+console.log(firstWord + secondWord);
+console.log(`${firstWord} ${secondWord}`);
+//example
+console.log(`${y + x} + ${z + c} =`, 13 + 54);
+
+console.log(10 - 5);
+console.log(10 - `5`);
+
+
+console.log("comma in a variable")
+let t =(1 + 2, 3 * 4);
+console.log(t);
+console.log(y + y, x * q);
+
+
+//asign 
+let g = 10;
+console.log(g);
+//add and assign
+g += 20;
+console.log(g);
+//subtract and assign
+g -= 10;
+console.log(g);
+//multiply and assign
+g *= 10
+console.log(g);
+//devide and assign
+g /= 10
+console.log(g);
+//devide and assign modulus
+g %= 10
+console.log(g);
+
+g **= 10
+console.log(g);
+
+
+
