@@ -30,7 +30,7 @@ let q = 10;
 let w = 20;
 let i = 100;
 
-//forLoop 
+//forLoop can executes a code block a number of times.
 
 console.log("pre-Decrement");
 
@@ -124,8 +124,52 @@ console.log(10 > 5);
 console.log(10 <= 5);
 console.log(10 >= 5);
 
+console.log(10 == 5)//equal to
+console.log(10 == 10);
+console.log(10 != 5);//not equal to
+console.log(10 != 10);
+console.log(10 < 5);//less than
+console.log(10 < 10);
+console.log(10 > 5);//greater than
+console.log(10 > 10);
 
+//Boolean and Number Comparison
 
+console.log(true == 1);
+console.log(true ==`1`);
+console.log(true == 0);
+console.log(false == 1);
+console.log(false == 0);
+console.log(false == `0`);
 
+console.log( "  ");
+
+console.log(true != 1);
+console.log(true !=`1`);
+console.log(true != 0);
+console.log(false != 1);
+console.log(false != 0);
+console.log(false !=`0`)
+
+//strings are compared letter by letter
+
+console.log(`Raise` > `Race`);
+console.log(`Break` > "brake");
+console.log(`lose` < "loose");
+
+//unicode order "a" is greater than "A"
+
+console.log(`A` == `a`);
+
+console.log(1 == "1"); //Equality : sting converted to number, so true
+console.log(1 === "1"); //Strict equality : checks datatype, 1 is string and number, so false
+console.log("");
+
+console.log(1 == true); //true is converted to "1", so true.
+console.log(1 === true); //Strict equality : same as above with datatypes, being same, so false.
+console.log("");
+
+console.log(0 == false); // same as above
+console.log(0 === false);
 
 
