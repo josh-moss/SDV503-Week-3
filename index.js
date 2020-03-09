@@ -45,3 +45,27 @@ for(let i=0; i<=100; i++)
 {
 console.log(i);
 }
+
+let e = 1;
+let r = 1;
+
+console.log(e);
+console.log(10 * ++e);
+console.log(e);
+console.log(10 * ++e)
+console.log(e);
+console.log(10 * ++e);
+console.log(e);
+
+console.log(r);
+console.log(10 * r++);
+console.log(r)
+console.log(10 * r++)
+console.log(r)
+console.log(10 * r++);
+console.log(r);
+
+const firstWord = "Hello"
+const secondWord = "World"
+
+console.log(firstWord, + secondWord);
