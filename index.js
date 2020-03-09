@@ -30,6 +30,8 @@ let q = 10;
 let w = 20;
 let i = 100;
 
+//forLoop 
+
 console.log("pre-Decrement");
 
 w = ++q;
