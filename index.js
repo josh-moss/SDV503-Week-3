@@ -108,4 +108,24 @@ g **= 10
 console.log(g);
 
 
+//comparison operator compares two values
+
+if ( x !== z ) {
+    console.log(`Same numbers`);
+    }
+    
+console.log(x)
+console.log(z)
+
+console.log(10 == 5);
+console.log(10 != 5);
+console.log(10 < 5);
+console.log(10 > 5);
+console.log(10 <= 5);
+console.log(10 >= 5);
+
+
+
+
+
 
