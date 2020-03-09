@@ -172,4 +172,23 @@ console.log("");
 console.log(0 == false); // same as above
 console.log(0 === false);
 
+//Null undefined
+
+console.log(null == 0);
+console.log(null === 0);
+console.log(null > 0); //null can not be greater than itself so its false.
+console.log(null < 0); // this is false cause null cannot be less than null.
+console.log(null >= 0); //null is assined to null so null cant be greater or lesser than itself, so true.
+console.log("")
+console.log(undefined == null);
+console.log(undefined === null);
+console.log("");
+console.log(undefined == 0);
+console.log(undefined === 0);
+console.log(undefined > 0);
+console.log(undefined >= 0);
+
+console.log(null + 1);// null acts as "0" still, so the result would be 0 + 1 = 1
+console.log(undefined > 0);//undefined is not a number so therefore you cannot be greater than 0.
+console.log(undefined + 1);//not a number.
 
